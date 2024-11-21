@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>113306053_HW5</title>
+	 <style>
+        body {
+            background-color: #eeede1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .main-container {
+            display: flex;
+            width: 900px;
+            background-color: #ffffff;
+        }
+        .left-panel {
+            width: 330px;
+            height: 1150px;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+        }
+        .photo-panel {
+            height: 50%;
+            background-size: cover;
+            background-position: center;
+        }
+        .text-content {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        .text-content h3 {
+            margin: 0 0 10px;
+        }
+        .right-panel {
+            width: 540px;
+            height: 1150px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+        }
+        .right-panel h2 {
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        .education .entry {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .homework-list a {
+            color: #007bff;
+            text-decoration: none;
+            display: block;
+        }
+        .homework-list a:hover {
+            text-decoration: underline;
+        }
+        .favorite-music {
+            display: flex;
+            justify-content: space-between;
+        }
+        .favorite-music img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+        .note {
+            font-size: 0.9em;
+            color: #555;
+            margin-top: 10px;
+        }
+        @media (max-width: 768px) {
+            .main-container {
+                flex-direction: column;
+            }
+            .left-panel, .right-panel {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+	<div class="main-container">
+        <div class="left-panel">
+            <div class="photo-panel" align="center">
+            	<img src="1.JPG" alt="personal profile" width="330px" height="500px">
+            	<h3>高達綸</h3>
+            </div>
+            <div class="text-content">
+                <div class="about-me">
+                    <h3>About Me</h3>
+                    <p>I am a freshman in the department of Management Information System at National Chengchi University.I hope I can learn more about programming and computer science fundamentals here.</p>
+                </div>
+                <div class="contact-info">
+                    <h3>Contact Info</h3>
+                    <p><a href="mailto:113306053@g.nccu.edu.tw">113306053@g.nccu.edu.tw</a></p>
+                    <img src="nccu icon.png" alt="NCCU Icon" width="300px" height="75px">
+                </div>
+            </div>
+        </div>
+        <div class="right-panel">
+            <section>
+                <h2>Education</h2>
+                <div>
+                    2024 - Nation Chengchi University, Department of MIS
+                    <br>2021～2024 - National Hsinchu Senior High School
+                    <br>2018～2021 - Hsinchu County Dong Xing Junior High School
+                </div>
+            </section>
+            <section>
+                <h2>Homework List</h2>
+           		HW1 - <a href="https://github.com/Lunlunnnn/HW1.git">https://github.com/Lunlunnnn/HW1.git</a>
+				<br>HW2 - <a href="https://github.com/Lunlunnnn/113306053_HW2.git">https://github.com/Lunlunnnn/113306053_HW2.git</a>
+				<br>HW3 - <a href="https://github.com/Lunlunnnn/HW3.git">https://github.com/Lunlunnnn/HW3.git</a>
+				<br>HW4 - <a href="https://github.com/Lunlunnnn/113306053_HW4.git">https://github.com/Lunlunnnn/113306053_HW4.git</a>
+				<br>HW5 - <a href=""></a>
+				<br>Lab1 - <a href="https://github.com/Lunlunnnn/113306053_LAB1.git">https://github.com/Lunlunnnn/113306053_LAB1.git</a>
+				<br>Lab2 - <a href="https://github.com/Lunlunnnn/113306053_Lab2.git">https://github.com/Lunlunnnn/113306053_Lab2.git</a>
+            </section>
+            <section>
+                <h2>Favorite Music</h2>
+                <a href="https://www.youtube.com/watch?v=yKNxeF4KMsY"><img src="2.png" alt="youtube icon" width="50" height="50"></a>
+				<br>Yellow
+				<br><a href="https://www.youtube.com/watch?v=RB-RcX5DS5A"><img src="2.png" alt="youtube icon" width="50" height="50"></a>
+				<br>The Scientist
+				<br><a href="https://www.youtube.com/watch?v=3YqPKLZF_WU"><img src="2.png" alt="youtube icon" width="50" height="50"></a>
+				<br>My Universe
+            </section>
+        </div>
+    </div>
+</body>
+</html>
